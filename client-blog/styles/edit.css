@@ -1,0 +1,99 @@
+.form-ctrl {
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.markdown-ctrl {
+    width: 25%;
+    padding: 2rem;
+    height: 100%;
+}
+
+.detail-ctrl {
+    width: 25%;
+    padding: 2rem;
+    height: 100%;
+}
+
+.form-ctrl input, .detail-ctrl input {
+    width: 100%;
+    padding: 0.75rem;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    margin: 0.2rem 0;
+}
+
+.form-ctrl textarea {
+    width: 100%;
+    min-height: 400px;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    margin: 0.2rem 0;
+}
+
+.form-ctrl button {
+    margin-right: 0.2rem;
+}
+
+.detail-ctrl p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+input.title-input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #4361ee !important;
+    color: #4361ee;
+    font-weight: bold;
+    font-size: 1.75rem;
+    background-color: transparent;
+    padding: 0;
+    transition: 0.2s;
+}
+
+input.title-input:focus {
+    border-bottom: 2px solid #4361ee !important;
+    font-size: 2rem;
+    padding: 0.75rem;
+    transition: 0.2s;
+}
+
+.markdown-table {
+    padding: 0 0.75rem;
+    border: 1px solid #ccc;
+}
+
+.quo {
+    padding-left: 0.5rem;
+    border-left: 0.25rem solid #ccc;
+    color: rgb(75, 75, 75);
+}
+
+.markdown-table p {
+    padding: 0.75rem;
+    margin: 0;
+    border-bottom: 1px solid #f6f8fa;
+    border-width: 80%;
+}
+
+.markdown-table p:last-child {
+    border-bottom: none;
+}
+
+.markdown-table code, .markdown-table pre {
+    background-color: #f6f8fa;
+    padding: 0.5rem;
+}
+
+.post-result {
+    padding: 2rem;
+}
+
+.post-result h3 {
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+header {
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.05);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header li {
+    padding: 1rem 0.5rem;
+    margin: 0 0.5rem;
+    background: linear-gradient(#4361ee, #4361ee) center bottom;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+}
+
+header a {
+    text-decoration: none;
+    color: #333 !important;
+}
+
+header li:hover, li.active {
+    background-size: 100% 2px;
+}
+
+main ul.list-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem 0;
+}
+
+main li.tag-name, .post-ctrl .post-tags a {
+    /* background-color: #ccc; */
+    color: #333;
+    padding: 0.25rem 0.5rem;
+    border-radius: 14.5px;
+    margin: 0 0.25rem;
+    border: 1px solid #333;
+}
+
+main li.tag-name:hover, .post-ctrl .post-tags a:hover {
+    background-color: #333;
+    color: #fff !important;
+    cursor: pointer;
+    transition: 0.15s;
+}

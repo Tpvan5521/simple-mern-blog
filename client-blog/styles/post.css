@@ -1,0 +1,84 @@
+.post-ctrl {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.post-ctrl .post-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.post-ctrl .post-tags {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.post-ctrl .post-tags a {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    color: rgba(0, 0, 0, 0.8) !important;
+    text-decoration: none;
+}
+
+.post-ctrl .post-author {
+    width: 100%;
+}
+
+.post-author .flex {
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.user-avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.user-name {
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.user-name a {
+    color: #000 !important;
+}
+
+.published-time {
+    margin-left: 0.5rem;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    margin: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.btn-tag {
+    color: #333;
+    padding: 0.25rem 0.5rem;
+    border-radius: 14.5px;
+    border: none;
+    margin: 0 0.25rem;
+    background-color: rgb(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.btn-tag:hover {
+    background-color: rgb(0, 0, 0, 0.2);
+    color: #333;
+}
